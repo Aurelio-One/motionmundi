@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confidentialité MotionMundi</title>
+<style>
+  :root { --fond: #0b1020; --texte: #e8ecf5; --doux: #9aa6c2; --accent: #ffc72c; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fond); color: var(--texte);
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 2rem; } h2 { font-size: 1.2rem; margin-top: 32px; color: var(--accent); }
+  a { color: var(--accent); }
+  .date { color: var(--doux); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Règles de confidentialité</h1>
+  <p class="date">Application « MotionMundi publication », mise à jour le 19 novembre 2026.</p>
+
+  <h2>À quoi sert l'application</h2>
+  <p>« MotionMundi publication » est l'outil interne de la chaîne MotionMundi. Il publie les
+     vidéos de la chaîne sur sa propre chaîne YouTube, programme leur date de mise en ligne,
+     pose leur miniature, publie un commentaire sous chaque vidéo et lit les statistiques de la
+     chaîne pour en faire un bilan. Il n'est pas proposé au public.</p>
+
+  <h2>Données Google utilisées</h2>
+  <p>L'application ne demande l'accès qu'au compte YouTube de la chaîne MotionMundi, par la
+     connexion Google (OAuth). Elle utilise ces autorisations :</p>
+  <ul>
+    <li>envoyer et gérer les vidéos de la chaîne (youtube.upload) ;</li>
+    <li>publier des commentaires sur les vidéos de la chaîne (youtube.force-ssl) ;</li>
+    <li>lire les informations et les statistiques YouTube de la chaîne
+        (youtube.readonly, yt-analytics.readonly).</li>
+  </ul>
+  <p>Elle ne lit aucune donnée d'autres utilisateurs, ne collecte aucune donnée personnelle
+     des spectateurs, et n'utilise aucune donnée à des fins publicitaires.</p>
+
+  <h2>Stockage et partage</h2>
+  <p>Le jeton de connexion est gardé uniquement sur l'ordinateur du propriétaire de la chaîne.
+     Aucune donnée n'est vendue, transmise ou partagée avec des tiers. Les statistiques lues
+     servent seulement au bilan interne de la chaîne.</p>
+  <p>L'utilisation et le transfert des informations reçues des API Google respectent le
+     <a href="https://developers.google.com/terms/api-services-user-data-policy">Règlement sur
+     les données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation
+     limitée. L'application respecte aussi les
+     <a href="https://www.youtube.com/t/terms">Conditions d'utilisation de YouTube</a> et les
+     <a href="https://policies.google.com/privacy">Règles de confidentialité de Google</a>.</p>
+
+  <h2>Retirer l'accès</h2>
+  <p>L'accès peut être retiré à tout moment depuis
+     <a href="https://myaccount.google.com/permissions">la page des autorisations du compte
+     Google</a> ou depuis les
+     <a href="https://security.google.com/settings/security/permissions">paramètres de
+     sécurité Google</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Par la chaîne YouTube <a href="https://www.youtube.com/@motionmundi">@motionmundi</a>.</p>
+
+  <p><a href="./">Retour à l'accueil</a></p>
+</main>
+</body>
+</html>
